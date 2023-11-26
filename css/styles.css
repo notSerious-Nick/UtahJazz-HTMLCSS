@@ -1,6 +1,7 @@
 @import "reset.css";
 
 @import "components/status-bar.css";
+@import "components/menu-bar.css";
 
 @import "screens/login.css";
 
@@ -26,4 +27,15 @@ body{
     font-weight: bold;
     font-style: normal;
     height: 150vh;
+    padding-top: 39px;
 }
+
+.today-game{
+    margin-left: 2.2vw;
+    height: 25vh;
+    width: 92vw;
+    background-color: white;
+    border-radius: 20px;
+
+}
+

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(26, 26, 26);
+    background-color: var(--gray);
     height: 30px;
     width: 100%;
     color:white

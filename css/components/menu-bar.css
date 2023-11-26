@@ -1,0 +1,26 @@
+.menu{
+    bottom: 0;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.menu ul li a{
+    color: white;
+}
+
+.select{
+    color: var(--yellow);
+}
