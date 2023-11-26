@@ -1,0 +1,84 @@
+
+.LogIn-mention{
+    text-align: center;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.LogIn-mention h1{
+    font-size:x-large;
+}
+.LogIn-mention p{
+    margin-top: 30px;
+    width: 60%;
+    opacity: 0.7;
+}
+
+.logIn{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logIn input:first-child{
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.logIn input:nth-child(2){
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.players{
+    margin-top: 120px;
+}
+.player:first-child{
+    right: 0;
+    position: fixed;
+    margin-top: 190px;
+    animation: playersAppear 1s ease-in-out forwards;
+    
+}
+.player:nth-child(2){
+    left: 0;
+    position: fixed;
+    margin-top: 190px;
+    animation: playersAppear 1s ease-in-out forwards;
+    animation-delay: .3s;
+}
+.logo{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+
+}
+
+.logIn input:hover{
+    background-color: var(--yellow);
+}
+
+input[placeholder="nickname"],
+input[type="submit"]{
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes playersAppear{
+    from{
+        margin-top: 190px;
+        opacity: 0;
+    }
+    to{
+        margin-top: -190px;
+        opacity: 1;
+    }
+}

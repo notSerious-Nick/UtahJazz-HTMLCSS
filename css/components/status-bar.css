@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(26, 26, 26);
     height: 30px;
     width: 100%;
+    color:white
 }
 
 .status-bar .status-bar__column{
