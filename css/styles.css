@@ -1,0 +1,72 @@
+@import "reset.css";
+
+@import "components/status-bar.css";
+
+@font-face {
+    font-family: 'WT Jazz Exp';
+    src: url('WTJazz-BoldExpanded.eot');
+    src: local('WT Jazz Exp Bold'), local('WTJazz-BoldExpanded'),
+        url('WTJazz-BoldExpanded.eot?#iefix') format('embedded-opentype'),
+        url('WTJazz-BoldExpanded.woff2') format('woff2'),
+        url('WTJazz-BoldExpanded.woff') format('woff'),
+        url('WTJazz-BoldExpanded.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: #008080;
+    font-family: 'WT Jazz Exp';
+    font-weight: bold;
+    font-style: normal;
+    height: 150vh;
+}
+
+.LogIn-mention{
+    text-align: center;
+    margin-top: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LogIn-mention h1{
+    font-size:x-large;
+}
+.LogIn-mention p{
+    margin-top: 30px;
+    width: 60%;
+    opacity: 0.7;
+}
+
+.logIn{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logIn input:first-child{
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.logIn input:nth-child(2){
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.player{
+    right: 0;
+    position: fixed;
+    margin-top: 100px;
+}
+.player:first-child{
+    right: 1;
+}
