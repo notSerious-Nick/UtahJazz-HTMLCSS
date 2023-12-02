@@ -1,0 +1,134 @@
+.today-game{
+    margin-left: 2vw;
+    height: 25vh;
+    width: 92vw;
+    background-color: black;
+    border-radius: 20px;
+    border: .4vh white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.today-game__portland{
+    width: 50vw;
+    height: 25vh;
+    background-color: #E03A3E;
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.today-game__utah{
+    width: 50vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.today-game--white{
+    color: white;
+    margin: 4px;
+}
+.today-span{
+    height: 4vh;
+    width: 92vw;
+    color: white;
+    font-size: xx-large;
+    margin: 7px;
+    margin-left: 4vw;
+    
+}
+.today-starters{
+    margin-left: 2.2vw;
+    height: 57vh;
+    width: 92vw;
+    color: white;
+}
+.today-starter{
+    background-color: var(--gray);
+    height: 10vh;
+    width: 92vw;
+    border: .4vh white solid;
+    border-radius: 20px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+}
+.today-starter img{
+    position: absolute;
+    left: 29px;
+    margin-top: 7px;
+}
+.today-starter > h1:first-child{
+    margin-top: -7px;
+    font-size: 100px;
+    width: 30%;
+}
+.today-starter h1:last-child{
+    margin-top: 15px;
+    font-size: 60px;
+    opacity: .7;
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+.today-starter__profile h1{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.today-starter__profile{
+    width: 50%;
+}
+.today-starter__profile__stats div span:first-child{
+    opacity: .7;
+}
+.today-starter__profile__stats{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.today-starter > h1:last-child{
+    padding-right: 4px;
+}
+.today-starter:hover,
+.today-game:hover{
+    border-color: var(--yellow);
+}
+.today-starter__profile__stats--PTS,
+.today-starter__profile__stats--REB,
+.today-starter__profile__stats--AST,
+.today-starter__profile__stats--FG{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.splash-screen{
+    background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    animation: hideSplashScreen 0.5s ease-in-out forwards;
+    animation-delay: 1.5s;
+}
+.splash-screen img{
+    width: 500px;
+    height: 500px;
+}
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}

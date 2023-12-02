@@ -52,3 +52,7 @@ input:focus{
 input{
 	border: none;
 }
+a{
+	text-decoration: none;
+	color: white;
+}
