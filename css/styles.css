@@ -30,3 +30,77 @@ body{
     height: 150vh;
     padding-top: 39px;
 }
+
+.menu-top{
+    margin-top: -7px;
+    width: 100vw;
+    height: 7vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.menu-top > h1{
+    font-size: xx-large;
+    margin-left: 10px;
+    width: 55%;
+    padding-left: 5px;
+}
+
+.menu-top .selectors{
+    margin: 5px;
+    width: 45%;
+}
+.menu-top .selectors i{
+    margin: 10px;
+}
+.chats{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 2vh;
+}
+.chats .chats-player{
+    height: 9vh;
+    width: 100vw;
+    background-color: brown;
+    margin-bottom: .5vh;
+}
+img{
+    background-color: var(--yellow);
+    border-radius: 20px;
+}
+.sticker{
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color:tomato;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.chats-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.chats-player--face{
+    width: 20%;
+}
+.chats-player--chat{
+    width: 60%;
+    margin-left: 10px;
+}
+.chats-player--times{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.chats-player--time{
+    font-size: small;
+}
