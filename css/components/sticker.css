@@ -1,0 +1,51 @@
+.sticker{
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color:tomato;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.sticker--move{
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color:tomato;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 17px;
+    margin-top: -33px;
+    animation: stickerJump 2s ease-in-out infinite;
+}
+.sticker--notMove{
+    height: 2.5vh;
+    width: 2.5vh;
+    background-color:tomato;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 17px;
+    margin-top: -33px;
+}
+@keyframes stickerJump {
+    0%{
+        margin-top: -33px;
+    }
+    50%{
+        margin-top: -44px;
+    }
+    100%{
+        margin-top: -33px;
+    }
+}
+
