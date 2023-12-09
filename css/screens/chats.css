@@ -1,0 +1,101 @@
+.menu-top{
+    margin-top: -7px;
+    width: 100vw;
+    height: 7vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.menu-top > h1{
+    font-size: xx-large;
+    margin-left: 10px;
+    width: 52%;
+    padding-left: 5px;
+}
+
+.menu-top .selectors{
+    margin: 5px;
+    width: 42%;
+}
+.menu-top .selectors i{
+    margin: 10px;
+}
+.chats{
+    height: 80vh;
+    width: 95vw;
+    margin-top: 2vh;
+}
+.chats .chats-player{
+    height: 9vh;
+    width: 98vw;
+    color: white;
+    margin-bottom: .5vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chats-player--face > img{
+    background-color: var(--yellow);
+    border-radius: 20px;
+    margin-left: -10px;
+    margin-top: 2px;
+    border: .4vh white solid;
+}
+.chats-player--face{
+    width: 20%;
+}
+.chats-player--chat{
+    width: 54%;
+    margin-left: 10px;
+    
+}
+.chats-player--times{
+    width: 16%;
+    display: flex;
+    justify-content: flex-end;
+}
+.chats-player--time{
+    font-size: small;
+    margin-top: -25px;
+    opacity: .7;
+}
+
+.chats-player--tomato:hover .chats-player--face > img{
+    border-color: tomato;
+}
+.leave{
+    opacity: .5;
+}
+.chats-player--mention{
+    margin-top: 8px;
+    font-size: small;
+    font-weight: 400;
+}
+.fa-gear:hover{
+    animation: gear-turn 1s linear infinite;
+    color: var(--yellow);
+}
+.fa-music:hover,
+.fa-user-plus:hover,
+.fa-magnifying-glass:hover{
+    color: var(--yellow);
+}
+@keyframes gear-turn {
+    from{
+        transform: rotateZ(0);
+    }   
+    to{
+        transform: rotateZ(360deg);
+    } 
+}
+.chats-player--name{
+    margin-top: -25px;
+}
+.chats-player--times{
+    margin-top: -20px;
+}

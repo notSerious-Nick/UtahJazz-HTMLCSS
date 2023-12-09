@@ -5,7 +5,9 @@
     background-color: var(--gray);
     height: 30px;
     width: 100%;
-    color:white
+    color:white;
+    z-index: 3;
+    
 }
 
 .status-bar .status-bar__column{
