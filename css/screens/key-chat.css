@@ -1,0 +1,16 @@
+
+.chat-text__div--key{
+    width:95vw;
+    display: flex;
+}
+.chat-text__div--key:nth-child(2),
+.chat-text__div--key--stack:nth-child(5){
+    width:95vw;
+    height: 8vh;
+    display: flex;
+    margin-bottom: 10px;
+}
+.chat-text__div--key--stack{
+    display: flex;
+    margin-left: 60px;
+}
