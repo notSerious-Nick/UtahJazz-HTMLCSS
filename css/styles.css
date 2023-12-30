@@ -10,6 +10,7 @@
 @import "screens/chats.css";
 @import "screens/lauri-chat.css";
 @import "screens/key-chat.css";
+@import "screens/jordan.css";
 
 @import "variables.css";
 
@@ -40,25 +41,23 @@ body{
     height: 150vh;
     padding-top: 39px;
 }
-
-.chat-text__div--jordan{
+.calendar{
+    margin-top: -10px;
+    height: 4%;
+    width: 100%;
+    background-color: rgb(199, 199, 199);
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
 }
-.chat-text__div--reverse{
-    flex-direction: row-reverse;
+.fa-chevron-right:hover{
+    color: var(--yellow);
+}
+.week{
+    width: 100%;
+    height: 2%;
+    background-color: rgb(167, 167, 167);
     display: flex;
-}
-
-.chat-text__div--reverse .chat-text__div--text--content{
-    margin-top: 25px;
-    border-radius: 10px;
-    border-top-right-radius: 0px;
-    background-color: var(--yellow);
-}
-.chat-text__temp{
-    width:95vw;
-    height: 8vh;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 10px;
+    border: 1px solid gray;
 }

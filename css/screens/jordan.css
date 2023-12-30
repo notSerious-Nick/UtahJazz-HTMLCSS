@@ -1,0 +1,22 @@
+
+.chat-text__div--jordan{
+    display: flex;
+}
+.chat-text__div--reverse{
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.chat-text__div--reverse .chat-text__div--text--content{
+    margin-top: 25px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    background-color: var(--yellow);
+}
+.chat-text__temp{
+    width:95vw;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
