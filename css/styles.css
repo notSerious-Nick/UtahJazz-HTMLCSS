@@ -11,6 +11,7 @@
 @import "screens/lauri-chat.css";
 @import "screens/key-chat.css";
 @import "screens/jordan.css";
+@import "screens/schedule.css";
 
 @import "variables.css";
 
@@ -41,132 +42,46 @@ body{
     height: 150vh;
     padding-top: 39px;
 }
-.calendar{
-    margin-top: -10px;
-    height: 4%;
-    width: 100%;
-    background-color: rgb(236, 234, 234);
+
+.menu-top > h2{
+    font-size: x-large;
+    color: var(--yellow);
+}
+.category{
+    height: 15vh;
+    width: 97vw;
+    background-color: aqua;
+}
+.category__name{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.category__name > h1{
+    color: var(--yellow);
+    margin-left: 10px;
     font-size: larger;
 }
-.fa-chevron-right:hover{
-    color: var(--yellow);
+.category__name > h3{
+    margin-right: 15px;
+    font-weight: 600;
+    color: white;
 }
-.week{
-    width: 100%;
-    height: 2%;
-    background-color: rgb(167, 167, 167);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid gray;
-}
-.week-day{
-    width: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.games{
-    width: 100%;
-    height: 60%;
-    background-color: rgb(236, 234, 234);
-}
-.games > div{
-    width: 100%;
-    height: 13%;
+.category__box > div{
+    width: 30%;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin: 10px;
 }
-.games > div > button{
-    display: flex;
-    flex-direction: column;
+.category__box > div > h1{
+    color: white;
 }
-.games > div > div,
-.games > div > button{
-    width: 13%;
-    height: 95%;
-    background-color: rgb(167, 167, 167);
-    border: none;
-}
-.games > div > div > h5,
-.games > div > button > h5{
-    position: absolute;
-    font-weight: 600;
-}
-button{
-    padding: 0px;
-}
-.game-1week > .game-week--sun,
-.game-1week > .game-week--mon,
-.game-1week > .game-week--tue,
-.game-1week > .game-week--wed,
-.game-1week > .game-week--thu,
-.game-6week > .game-week--mon,
-.game-6week > .game-week--tue,
-.game-6week > .game-week--wed,
-.game-6week > .game-week--thu,
-.game-6week > .game-week--fri,
-.game-6week > .game-week--sat{
-    background-color: rgb(236, 234, 234);
-}
-
-.game--away{
-    width: 100%;
-    height: 17%;
-    background-color: var(--yellow);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.game--home{
-    width: 100%;
-    height: 17%;
-    background-color: black;
-    color: var(--yellow);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.yellow{
-    color: var(--yellow);
-}
-.game--away > h6,
-.game--home > h6{
-    font-size:x-small;
-    
-}
-.score--small{
-    font-size:x-small;
-}
-.game-score{
-    margin-top: 5px;
-    width: 100%;
+.category__box{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.game-week--sun:focus,
-.game-week--mon:focus,
-.game-week--tue:focus,
-.game-week--wed:focus,
-.game-week--thu:focus,
-.game-week--fri:focus,
-.game-week--sat:focus{
-    border: 2px solid black;
-}
-.game-week--yellow:focus{
-    border: 2px solid var(--yellow);
-    animation: logoMove 3s ease-in-out infinite;
-}
-@keyframes logoMove {
-    from{
-        transform: rotateZ(0deg);
-    }
-    to{
-        transform: rotateZ(360deg);
-    }
 }
