@@ -43,3 +43,21 @@ body{
     height: 150vh;
     padding-top: 39px;
 }
+@media screen and (min-width: 514px) {
+    .small-screen{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: black;
+    z-index: 99;
+    font-size: 50px;
+}
+    .small-screen-text{
+        color: white;
+        box-sizing: border-box;
+    }
+}
