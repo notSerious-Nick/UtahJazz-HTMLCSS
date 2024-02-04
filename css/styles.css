@@ -54,6 +54,7 @@ body{
     background-color: black;
     color: black;
     z-index: 99;
+    top: 0;
     font-size: 50px;
 }
     .small-screen-text{
